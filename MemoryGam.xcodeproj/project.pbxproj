@@ -14,7 +14,6 @@
 		7E1077CA2388241E009D9D9E /* levelStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1077C92388241E009D9D9E /* levelStory.storyboard */; };
 		7E1077CC23882467009D9D9E /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1077CB23882467009D9D9E /* Game.storyboard */; };
 		7E1077CE2388247C009D9D9E /* SecondGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1077CD2388247C009D9D9E /* SecondGame.storyboard */; };
-		7E1077D123882494009D9D9E /* Memory_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E1077CF23882494009D9D9E /* Memory_Game.xcdatamodeld */; };
 		7E1077D3238824B9009D9D9E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1077D2238824B9009D9D9E /* CoreDataManager.swift */; };
 		7E1077D5238824DC009D9D9E /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1077D4238824DC009D9D9E /* User+CoreDataClass.swift */; };
 		7E1077D7238824F7009D9D9E /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1077D6238824F7009D9D9E /* User+CoreDataProperties.swift */; };
@@ -27,6 +26,7 @@
 		7E1077E5238825B1009D9D9E /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1077E4238825B1009D9D9E /* CourseViewController.swift */; };
 		7E1077E7238825C6009D9D9E /* GameviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1077E6238825C6009D9D9E /* GameviewController.swift */; };
 		7E1077E9238825D8009D9D9E /* SecondGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1077E8238825D8009D9D9E /* SecondGameViewController.swift */; };
+		7E142D5E23882AFE00123542 /* Memory_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E142D5C23882AFE00123542 /* Memory_Game.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,6 @@
 		7E1077C92388241E009D9D9E /* levelStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = levelStory.storyboard; sourceTree = "<group>"; };
 		7E1077CB23882467009D9D9E /* Game.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
 		7E1077CD2388247C009D9D9E /* SecondGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondGame.storyboard; sourceTree = "<group>"; };
-		7E1077D023882494009D9D9E /* Memory_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memory_Game.xcdatamodel; sourceTree = "<group>"; };
 		7E1077D2238824B9009D9D9E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		7E1077D4238824DC009D9D9E /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7E1077D6238824F7009D9D9E /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		7E1077E4238825B1009D9D9E /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
 		7E1077E6238825C6009D9D9E /* GameviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameviewController.swift; sourceTree = "<group>"; };
 		7E1077E8238825D8009D9D9E /* SecondGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGameViewController.swift; sourceTree = "<group>"; };
+		7E142D5D23882AFE00123542 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 		7E1077B123882253009D9D9E /* CoreDataBase */ = {
 			isa = PBXGroup;
 			children = (
-				7E1077CF23882494009D9D9E /* Memory_Game.xcdatamodeld */,
 				7E1077D2238824B9009D9D9E /* CoreDataManager.swift */,
+				7E142D5C23882AFE00123542 /* Memory_Game.xcdatamodeld */,
 			);
 			path = CoreDataBase;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 			files = (
 				7E1077E5238825B1009D9D9E /* CourseViewController.swift in Sources */,
 				7E1077DB23882525009D9D9E /* UserCell.swift in Sources */,
-				7E1077D123882494009D9D9E /* Memory_Game.xcdatamodeld in Sources */,
+				7E142D5E23882AFE00123542 /* Memory_Game.xcdatamodeld in Sources */,
 				7E10779E23882181009D9D9E /* AppDelegate.swift in Sources */,
 				7E1077E323882598009D9D9E /* LevelViewController.swift in Sources */,
 				7E1077E12388256C009D9D9E /* VCBuilder.swift in Sources */,
@@ -481,14 +481,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7E1077CF23882494009D9D9E /* Memory_Game.xcdatamodeld */ = {
+		7E142D5C23882AFE00123542 /* Memory_Game.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7E1077D023882494009D9D9E /* Memory_Game.xcdatamodel */,
+				7E142D5D23882AFE00123542 /* Model.xcdatamodel */,
 			);
-			currentVersion = 7E1077D023882494009D9D9E /* Memory_Game.xcdatamodel */;
-			name = Memory_Game.xcdatamodeld;
-			path = "../../../Memory Game /Memory Game/CoreDatabase/Memory_Game.xcdatamodeld";
+			currentVersion = 7E142D5D23882AFE00123542 /* Model.xcdatamodel */;
+			path = Memory_Game.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
